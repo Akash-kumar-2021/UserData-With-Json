@@ -22,6 +22,15 @@ button
 {
     width: 100px;
     padding: 10px;
+    color: teal;
+    border-color: aliceblue;
+}
+button:hover
+{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-color: green;
 }
 .output
 {
@@ -30,5 +39,15 @@ button
     margin-top: 20px;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid teal;
+    color: teal;
+  }
+
+  h1{
+    text-align: center;
+    color: teal;
+  }
+  label
+  {
+    color: teal;
   }

@@ -14,7 +14,7 @@ function UserForm()
    
   const loadData = async () =>
   {
-     const res = await axios.get("http://localhost:8000/users");
+     const res = await axios.get("http://localhost:3000/users");
      console.log(res.data)
      setUser(res.data);
   }
@@ -23,7 +23,7 @@ function UserForm()
   const AddUser = (e) =>
   {
     e.preventDefault();
-     axios.post("http://localhost:8000/users",{
+     axios.post("http://localhost:3000/users",{
       name,email,address,id
      })
      .then(() =>
